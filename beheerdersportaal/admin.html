@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beheerdersportaal - Admin Dashboard</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <h2 class="logo-text">Beheerdersportaal</h2>
+                </div>
+                <div class="nav-buttons">
+                    <a href="../homepage/index.html" class="back-button">Terug naar Website</a>
+                    <button class="logout-button">Uitloggen</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Admin Dashboard Section -->
+    <section class="admin-dashboard">
+        <div class="container">
+            <div class="dashboard-header">
+                <h1 class="dashboard-title">Admin Dashboard</h1>
+                <p class="dashboard-subtitle">Welkom in het beheerdersportaal</p>
+            </div>
+            
+            <div class="dashboard-content">
+                <div class="admin-actions">
+                    <h2>Beheerdersfuncties</h2>
+                    <div class="action-buttons">
+                        <button class="action-btn primary">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 5v14M5 12h14"></path>
+                            </svg>
+                            Nieuwe Gebruiker
+                        </button>
+                        <button class="action-btn secondary">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M3 6h18M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2M10 11v6M14 11v6"></path>
+                            </svg>
+                            Gebruiker Verwijderen
+                        </button>
+                        <button class="action-btn tertiary" id="pricesProductsBtn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                            </svg>
+                            Prijzen/Producten Aanpassen
+                        </button>
+                        <a href="../over-ons/over-ons.html" class="action-btn tertiary">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                <polyline points="14,2 14,8 20,8"></polyline>
+                                <line x1="16" y1="13" x2="8" y2="13"></line>
+                                <line x1="16" y1="17" x2="8" y2="17"></line>
+                                <polyline points="10,9 9,9 8,9"></polyline>
+                            </svg>
+                            Bedrijfsinfo Aanpassen
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Beheerdersportaal. Alle rechten voorbehouden.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="admin.js"></script>
+</body>
+</html>
